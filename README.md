@@ -1,29 +1,35 @@
-# 📚 Library Lite
+# 📚 E-Library — Full Stack Web Application
 
-**Library Lite** is a full-stack digital library management system built with **Next.js**, **Node.js**, and **Prisma**.  
-It allows users to browse, borrow, and manage books with secure authentication and an interactive UI.
+> A complete e-library platform for university students to read, like, and comment on books across multiple genres — with personalized profiles and data tracking.
+
+---
+## 🧩 Features
+
+### 👨‍🎓 User Features
+- JWT-based user registration and login
+- Browse books by genre, author, or keyword
+- Like and comment on books
+- Access and update profile information
+- Track reading progress
+- Manage favorite books
+
+### 🧑‍💼 Admin Features
+- Add, update, and delete book entries
+- Manage user data
+- Review and moderate comments
 
 ---
 
-## 🚀 Features
-
-- 🏠 **Home Page** – Overview of the library with navigation.  
-- 📚 **Browse Books** – View available books with search and filter.  
-- 🔐 **User Authentication** – Secure login/signup using Prisma + JWT/OAuth.  
-- 👤 **Dashboard** – Personalized dashboard showing user activity and borrowed books.  
-- 📞 **Contact Page** – For user queries and feedback.  
-- 🎨 **Responsive Design** – Works smoothly on all devices.  
-
----
-
-## 🛠️ Tech Stack
+## 🏗️ Tech Stack
 
 | Layer | Technology |
-|--------|-------------|
-| **Frontend** | Next.js (React), CSS Modules |
+|-------|-------------|
+| **Frontend** | React.js |
 | **Backend** | Node.js, Express.js |
-| **Database** | Prisma ORM with PostgreSQL / Supabase |
-| **Authentication** | JWT / OAuth (Google Login) |
-| **Styling** | Global CSS + Component-level styling |
-| **Version Control** | Git & GitHub |
+| **Database** | MySQL |
+| **Authentication** | JSON Web Tokens (JWT) |
+| **Styling** | CSS / Styled Components |
+| **Deployment** | Vercel (Frontend), Render / Railway (Backend) |
+
+---
 
